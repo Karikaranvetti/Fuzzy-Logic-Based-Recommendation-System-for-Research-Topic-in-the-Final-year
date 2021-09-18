@@ -4,7 +4,7 @@ Most University students are uncertain which research topic to choose for their 
   * To identify the features that contribute to maximizing student satisfaction on the Topic choice. 
   * To propose an Intelligent Decision Support System (IDSS) to aid students in the decision making process
                  
- ### The Final version of our app looks like this 
+ ### The final version of our application looks like this
 
  ![top](https://github.com/Karikaranvetti/Fuzzy-Logic-Based-Recommendation-System-for-Research-Topic-in-the-Final-year/blob/main/doc/result1.jpeg)
  
