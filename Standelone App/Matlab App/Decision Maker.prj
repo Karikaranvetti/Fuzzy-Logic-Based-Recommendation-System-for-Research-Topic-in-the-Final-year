@@ -1,0 +1,107 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="4059878960" file="D:\matlab project\pprogramme\Decision Maker.prj" location="D:\matlab project\pprogramme" name="Decision Maker" target="target.mlapps" target-name="Package App">
+    <param.appname>Decision Maker</param.appname>
+    <param.authnamewatermark>Girishikan Karikaran Bragadeeshan</param.authnamewatermark>
+    <param.email>e16115@eng.pdn.ac.lk</param.email>
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary>A Decision making app for the computer engineering research 
+By
+Girishikan Selvaratnam
+Vettrivel Karikaran
+Bragadeeshan Suppusamy</param.summary>
+    <param.description />
+    <param.screenshot>C:\Users\giris\AppData\Local\Temp\tp5c408663_3bc1_48a4_932b_1a706a4ffa9c.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>D:\matlab project\models</param.output>
+    <param.guid>1f973e0e-a1a3-4971-ab82-d5ed150dba16</param.guid>
+    <unset>
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.description />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\app1.mlapp</file>
+    </fileset.main>
+    <fileset.depfun />
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\clould_computing.fis</file>
+      <file>${PROJECT_ROOT}\crypto_network_secu.fis</file>
+      <file>${PROJECT_ROOT}\Emb_process.fis</file>
+      <file>${PROJECT_ROOT}\IOT.fis</file>
+      <file>${PROJECT_ROOT}\ML.fis</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="D:\matlab project" name="models" optional="false">D:\matlab project\models</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2018a</root>
+      <toolboxes>
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabcoder" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="polyspacebugfinder" />
+      </toolboxes>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <polyspacebugfinder>
+          <enabled>true</enabled>
+        </polyspacebugfinder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
